@@ -8,10 +8,14 @@ package lab1;
  * @version 1.00
  */
 public class IntroToProgrammingCourse extends Course {
-    
+
     public IntroToProgrammingCourse(String courseName, String courseNumber) {
         super.setCourseName(courseName);
         super.setCourseNumber(courseNumber);
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
