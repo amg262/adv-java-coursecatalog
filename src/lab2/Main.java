@@ -18,6 +18,7 @@ public class Main {
 
 
     public static void writeItOut(CourseLike cl) {
-        System.out.println(cl + " was here");
+        System.out.println(cl.getCourseName() + " was here");
+        System.out.printf("%s was here\n", cl.getCourseName());
     }
 }
