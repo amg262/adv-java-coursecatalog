@@ -1,5 +1,7 @@
 package lab1;
 
+import lab2.CourseLike;
+
 public class Driver {
     public static void main(String[] args) {
         Course course = new AdvancedJavaCourse("3", "3");
@@ -10,4 +12,5 @@ public class Driver {
         System.out.println(course2);
         System.out.println(course3);
     }
+
 }

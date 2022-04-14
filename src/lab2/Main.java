@@ -12,6 +12,12 @@ public class Main {
 
         for (CourseLike c : courses) {
             System.out.println(c);
+            writeItOut(c);
         }
+    }
+
+
+    public static void writeItOut(CourseLike cl) {
+        System.out.println(cl + " was here");
     }
 }
